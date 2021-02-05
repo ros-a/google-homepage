@@ -1,0 +1,87 @@
+* {
+	padding: 0;
+	margin: 0;	
+}
+
+body {
+	top: 0;
+	width: 100%;
+	min-height: 100%;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+/* NAVIGATION */
+	
+header {
+	position: absolute;
+	width: 100%;
+}
+
+ul a {
+	text-decoration: none;
+	list-style: none;
+	color: #232222;
+}
+
+.nav-left {
+	left: 0;
+	margin-left: 25px;
+	margin-top: 21px;
+	display: flex;
+}
+
+.nav-right {
+	float: right;
+	margin-right: 27px;
+	margin-top: -22px;
+	display: flex;
+	align-items: center;
+}
+
+.nav-left li {
+	display: block;
+	width: 40px;
+	float: left;
+}
+
+.nav-right li {
+	display: block;
+	width: 50px;
+	float: left;
+	margin-right: 10px;
+}
+
+#google-apps {
+	width: 4px;
+	height: 4px;
+	box-shadow: 0 0 0 3px inset, 0 -6px 0, 0 6px 0, 6px 0 0, -6px 0 0, -6px -6px 0, -6px 6px 0, 6px 6px 0, 6px -6px 0;
+	color: #666;
+	margin-right: 25px;
+
+}
+
+#sign-in {
+	width: 70px;
+	height: 30px;
+	background-color: #4c8bf5;
+	border: none;
+	border-radius: 2px;	
+	color: white;
+	font-weight: 900;
+}
+
+main {
+	text-align: center;
+}
+
+.searchbar {
+	color: #202124;
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+	height: 44px;
+	margin: 0 auto;
+	width: auto;
+}
+
+
