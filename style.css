@@ -204,7 +204,8 @@ footer {
  	position: absolute;
  	height: 150%;
  	width: 50%;
-	left: 1.5px;
-	top: -7px;
+	left: 1px;
+	top: -6px;
 	background: #468C28;
+	transform:rotate(45deg);
 }
