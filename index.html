@@ -1,12 +1,17 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html>
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" ccontent="width=device-width, initial scale=1.0">
 	
-	<title>Odin Project Google Homepage Assignment</title>
-	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<title>Odin Project – Google Homepage</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	
+<div class="page-content">
+<!-- NAVIGATION -->
 	<header>
 		<nav>
 			<ul class="nav-left">
@@ -21,20 +26,41 @@
 			</ul>
 		</nav>
 	</header>
-	
+
+<!-- MAIN -->
 	<main>
 		<div id="logo">
 			<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
 		</div>
 		<div id="searchbar">
-			<input class="searchbar" type="text" name="search"><br>
-			<button class="button search" type="submit">Google Search</button>
-			<button class="button lucky" type="submit">I'm Feeling Lucky</button>	
+			<div id="searchbar-container">
+				<input class="searchbar" type="text" name="search"><br>
+				<div id="magnifier"></div>
+				<img id="microphone-icon" src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg" alt="microphone icon">
+			</div>
+			<button class="button-search" type="submit">Google Search</button>
+			<button class="button-lucky" type="submit">I'm Feeling Lucky</button>	
 		</div>	
 	</main>
 	
+<!-- FOOTER -->	
 	<footer>
-	
+		<ul class="footer-list-left">
+			<li><a href="#">Advertising</a></li>
+			<li><a href="#">Business</a></li>
+			<li><a href="#">How Search works</a></li>
+		</ul>
+		<div id="carbon-neutral-container">
+			<div id="leaf-icon"></div>
+			<div id="carbon-neutral-text">Carbon Neutral since 2007</div>
+		</div>
+		<ul class="footer-list-right">
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Settings</a></li>
+		</ul>
 	</footer>
+	
+</div>
 </body>
 </html>
